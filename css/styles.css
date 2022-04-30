@@ -682,6 +682,7 @@ button {
 	width: 528px;
 	height: 581px;
 
+	padding: 40px;
 	background-color: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
 		0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -710,4 +711,18 @@ button {
 }
 .modal-close {
 	fill: #000000;
+}
+.modal-form {
+	outline 1px solid tomato;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.form-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
