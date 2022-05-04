@@ -745,6 +745,9 @@ button {
 	justify-content: center;
 	align-items: center;
 }
+.modal-form-group:nth-of-type(4n) {
+	margin-bottom: 20px;
+}
 
 input,
 textarea {
@@ -851,4 +854,45 @@ textarea {
 	margin: 0 auto;
 	margin-top: 30px;
 	padding: 10px 55px;
+}
+
+.subscribe-btn {
+	margin-top: 0;
+}
+
+.footer-form {
+	margin-left: 93px;
+}
+.footer-form-input {
+	min-width: 358px;
+	padding: 15px;
+	padding-left: 16px;
+
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	outline: transparent;
+	background-color: transparent;
+}
+
+.footer-form-input::placeholder {
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 0.03em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+.subscribe-btn {
+	padding: 10px 29px;
+	margin-left: 12px;
+}
+
+.subscribe-btn::after {
+	content: "";
+	display: inline-block;
+	margin-left: 10px;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	background-image: url(../images/icon-telegram.svg);
 }

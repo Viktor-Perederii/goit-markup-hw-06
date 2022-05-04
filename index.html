@@ -528,6 +528,23 @@
 						</li>
 					</ul>
 				</div>
+				<form class="footer-form" method="post">
+					<p class="footer-form-text footer-social-text">
+						Подпишитесь на рассылку
+					</p>
+					<label class="footer-form-email">
+						<input
+							class="footer-form-input"
+							type="email"
+							name="mail"
+							id="subscribe-mail"
+							placeholder="E-mail"
+						/>
+					</label>
+					<button class="hero-btn subscribe-btn" type="submit">
+						Подписаться
+					</button>
+				</form>
 			</div>
 		</footer>
 		<div data-modal class="backdrop is-hidden">
@@ -611,6 +628,7 @@
 							class="modal-form-checkbox-custom"
 							tabindex="0"
 							role="checkbox"
+							aria-checked="true"
 						>
 							<svg class="modal-form-checkbox-icon" width="16" height="15">
 								<use href="./images/icons.svg#icon-checkbox"></use>
